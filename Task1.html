@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon Cards</title>
+
+    <style>
+      .container {
+        display: flex;
+        gap: 20px;
+      }
+
+      .card,
+      .card2 {
+        width: 300px;
+        padding: 15px;
+        background: white;
+      }
+
+      .grid,
+      .grid2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+      }
+
+      .grid img,
+      .grid2 img {
+        width: 100%;
+        height: 120px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Card 1 -->
+      <div class="card">
+        <h3>50-80% off | Sports, Outdoor & More</h3>
+
+        <div class="grid">
+          <div>
+            <img src="../public/Cycle.jpeg" />
+            <p>Sports</p>
+          </div>
+
+          <div>
+            <img src="../public/Helmet.jpeg" />
+            <p>Automobiles</p>
+          </div>
+
+          <div>
+            <img src="../public/ToolBox.jpeg" />
+            <p>Tools</p>
+          </div>
+
+          <div>
+            <img src="../public/plant.jpeg" />
+            <p>Garden</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card2">
+        <h3>Customers' Most-Loved Fashion</h3>
+
+        <div class="grid2">
+          <img src="../public/dress.jpeg" />
+          <img src="../public/shoe1.jpeg" />
+          <img src="../public/shoe2.jpeg" />
+          <img src="../public/tshirt.jpeg" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
